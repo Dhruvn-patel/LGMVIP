@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(100deg, lightblue, lightpink);
+    height: 100vh;
+}
+
+.container {
+    /* height: 150px; */
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    min-width: 400px;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    border: 2px solid rgb(250, 239, 239);
+}
+
+.container h1 {
+    height: 40px;
+    margin: 30px 20px;
+    letter-spacing: 2;
+    color: rgb(237, 240, 58);
+}
+
+.container clip {
+    margin: 20px;
+}
+
+#newtask {
+    background: #f1f1f1;
+    padding: 40px 30px;
+    border: 2px solid rgb(255, 253, 253);
+    outline: none;
+    border-radius: 5px;
+}
+
+#newtask input {
+    position: relative;
+    padding: 10px;
+    width: 70%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+#newtask input:focus {
+    outline: none;
+    background: #e1ddeb;
+}
+
+#newtask button {
+    position: relative;
+    height: 40px;
+    float: right;
+    width: 20%;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #5438bd;
+    color: #fff;
+    cursor: pointer;
+}
+
+#result {
+    background: #ffff;
+    padding: 30px 40px;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.tasks {
+    background: #fff;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.tasks span {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.tasks button {
+    height: 100%;
+    width: 30px;
+    border: none;
+    outline: none;
+    background: #5438bd;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.complete {
+    text-decoration: line-through;
+}
