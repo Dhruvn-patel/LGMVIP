@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charse t="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="enroll.css">
+    <title>Student Enrollment Form</title>
+
+</head>
+
+<body>
+    <div class="header-area">
+        <div class="container">
+            <div class="heading">
+                <h1>Student Enrollment Form</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="form-area">
+        <div class="container">
+            <div class="part">
+                <div class="form-value">
+                    <form name="myform">
+                        <div>
+                            <label class="text-name">Name:</label>
+                            <input type="text" class="input" name="name" placeholder=" Enter name">
+                        </div>
+                        <div>
+                            <label class="text-name">Email:</label>
+                            <input type="mail" class="input" name="mail" placeholder="Enter mail">
+                        </div>
+                        <div>
+                            <label class="text-name">website:</label>
+                            <input type="text" class="input" name="website" placeholder="website">
+                        </div>
+                        <div>
+                            <label class="text-name">photo upload:</label>
+                            <input type="file" name="photo" placeholder="name" onchange="loadFile(event)">
+                        </div>
+                        <div id="gender">
+                            <label class="text-name">Gender:</label>
+                            <input type="radio" name="gender"> Male
+                            <input type="radio" name="gender"> Female
+                        </div>
+                        <div>
+                            <input type="button" class="btn" name="btn1" value="Submit">
+                        </div>
+
+                    </form>
+                </div>
+                <!-- <td>
+                    <div id="result">
+
+                    </div>
+                </td>
+            </tr> -->
+                <div id="result">
+                    <!-- resutlt -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
